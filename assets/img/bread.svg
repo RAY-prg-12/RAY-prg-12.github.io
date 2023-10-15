@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="bread.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="16"
+     inkscape:cx="-3.4375"
+     inkscape:cy="13.375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid182"
+       originx="0"
+       originy="0"
+       spacingx="0.5"
+       spacingy="0.5" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke-width:3.77953;stroke-linecap:square;stroke-miterlimit:19"
+       d="m 0,14 c 0,1 1.057191,2 2,2 4,0 8,0 12,0 1,0 2,-1 2,-2 0,-0.01324 -0.0029,-0.02637 -0.0029,-0.03959 C 16,10 12,8 8,8 4,8 0,10 0,14 Z"
+       id="path447"
+       sodipodi:nodetypes="sssssss" />
+    <path
+       style="fill:#ffffff;stroke-width:3.77953;stroke-linecap:square;stroke-miterlimit:19"
+       d="m 8,8.5 c 0,0 -0.5,1 -0.5,1.5 0,1 0.5,2 0.5,2 0,0 0.5,-1 0.5,-2 C 8.5,9.5 8,8.5 8,8.5 Z"
+       id="path498"
+       sodipodi:nodetypes="cscsc" />
+    <path
+       style="fill:#ffffff;stroke-width:3.77953;stroke-linecap:square;stroke-miterlimit:19"
+       d="M 5,9 C 5,9 4.5,10 4.5,10.5 4.5,11.5 5,12 5,12 5,12 5.5,11.5 5.5,10.5 5.5,10 5,9 5,9 Z"
+       id="path498-1"
+       sodipodi:nodetypes="cscsc" />
+    <path
+       style="fill:#ffffff;stroke-width:3.77953;stroke-linecap:square;stroke-miterlimit:19"
+       d="m 11,9 c 0,0 -0.5,1 -0.5,1.5 0,1 0.5,1.5 0.5,1.5 0,0 0.5,-0.5 0.5,-1.5 C 11.5,10 11,9 11,9 Z"
+       id="path498-0"
+       sodipodi:nodetypes="cscsc" />
+  </g>
+</svg>
