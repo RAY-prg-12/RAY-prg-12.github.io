@@ -358,7 +358,7 @@ a .tab.illust:hover{
     gap:1rem;
 }
 .bread ul:before{
-    content:url("/im-ray/assets/img/bread.svg");
+    content:url("/assets/img/bread.svg");
 }
 .bread.ate ul{
     border-bottom:dotted 2px;
