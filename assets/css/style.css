@@ -441,6 +441,8 @@ a .tab.illust:hover{
     height:100vh;
     background-color: #ccc;
     transform:translateX(100vw);
+
+    padding-bottom:12.5%;
 }
 .hambgr_tray h1{
     margin-bottom: 68px;
