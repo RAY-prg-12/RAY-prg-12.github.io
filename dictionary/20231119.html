@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>備忘録とか</title>
+        <title>基底クラスの問題</title>
         <link rel="stylesheet" href="/assets/css/style.css">
         <!-- Disable transition on load -->
         <script>let _132532=0;</script>
@@ -54,21 +54,51 @@
                     <li>
                         <a href="/dictionary.html">辞書</a>
                     </li>
+                    <li>
+                        <a href="/dictionary/20231119.html">基底クラスの問題</a>
+                    </li>
                 </ul>
             </div>
             <section>
-                <h1>辞書</h1>
+                <h1>基底クラスの問題</h1>
                 <hr>
                 <div>
-                    備忘録だったり、私の作品内で出てきた造語などをここに。
+                    
+                    ※備忘録です。こんなことC++世界では常識だと思いますが…<br>
+                    　私は初心者かつおバカさんなので、お許しください…<br>
                     <br>
+                    私はプログラミング初心者。<br>
+                    C++ のことを勉強しながらゲームを作ってました。<br>
                     <br>
-                    <a href="/dictionary/20231119.html">
-                        <div class="tab button">
-                            <h2>基底クラスの問題</h2>
-                            作成日：2023/11/19 分類：備忘録
-                        </div>
-                    </a>
+                    その時、こんなコードを書いていたんです。<br>
+                    
+                    <pre>
+                    class Randomizer
+                    {
+                    public:
+                        Randomizer();
+                    protected:
+                        // 乱数生成器
+                        Random m_rand;
+                    };
+                    </pre>
+                    Randomizer という基底クラスを作り、そこから派生クラスを作成する、という構成です。<br>
+                    ここで Random は、乱数生成をしやすくしたクラスです。<br>
+                    <br>
+                    <b>「(コピーコンストラクタ): 削除された関数を参照しようとしています」</b><br>
+                    <br>
+                    ？？？　どういうことだ？？<br>
+                    <br>
+                    調べてみると、コピーコンストラクタが生成されていないことが原因だそう。<br>
+                    <br>
+                    このエラーの原因は Random m_rand;。<br>
+                    これを変数ではなく、ポインタにしてやれば OK でした。<br>
+                    <br>
+                    ちなみに私は、生のポインタ(hoge* みたいなやつ)はメモリリークとか delete 忘れにビビッてスマートポインタを多用してます。<br>
+                    スマートポインタも有効的に活用しなくちゃ…<br>
+                    <br>
+                    以上。<br>
+                    今回はこの辺で。<br>
                 </div>
             </section>
         </article>
