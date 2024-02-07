@@ -289,6 +289,10 @@ a .tab.illust:hover{
     color:white;
     background: linear-gradient(to right, #000 50%, #33bbbb 100%);
 }
+.links .bsky{
+    color:white;
+    background: #1370e9;
+}
 .links .discord{
     color:white;
     background: #7722ff;
